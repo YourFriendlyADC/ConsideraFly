@@ -3306,3 +3306,36 @@ function launchMap(){
 
   // Dibujado de Aristas
 }
+
+function haversine(sourceLatitude, sourceLongitude, destinationLatitude, destinationLongitude) {
+  // Radio de la tierra en kilómetros
+  const radius = 6371;
+
+  // Convierte coordenadas a radianes
+  const sourceLatitudeRad = (sourceLatitude * Math.PI) / 180;
+  const sourceLongitudeRad = (sourceLongitude * Math.PI) / 180;
+  const destinationLatitudeRad = (destinationLatitude * Math.PI) / 180;
+  const destinationLongitudeRad = (destinationLongitude * Math.PI) / 180;
+
+  // Diferencia de latitud y longitud
+  const dLat = destinationLatitudeRad - sourceLatitudeRad;
+  const dLon = destinationLongitudeRad - sourceLongitudeRad;
+
+  // Formula Haversine
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(sourceLatitudeRad) * Math.cos(destinationLatitudeRad) * Math.sin(dLon / 2) ** 2;
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  const distance = radius * c;
+
+  return distance;
+}
+
+// Kochi, India
+const sourceLatitude = 10.152;
+const sourceLongitude = 76.401901;
+
+// Sharjah, United Arab Emirates
+const destinationLatitude = 25.32859993;
+const destinationLongitude = 55.51720047;
+
+const distance = haversine(sourceLatitude, sourceLongitude, destinationLatitude, destinationLongitude);
+console.log("Distance between Kochi and Sharjah airports: " + distance.toFixed(3) + " kilometers");
