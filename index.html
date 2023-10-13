@@ -11,14 +11,25 @@
 </head>
 <body>
 	<section>
+
+		<!-- mapa -->
 		<div id="map"></div>
-		<h3>
-			<i class="fa-solid fa-plane-departure"></i>
-			ConsideraFly
-		</h3>
+
+		<!-- barra de abajito -->
+		<div id="info">
+			<h3>
+				<i class="fa-solid fa-plane-departure"></i>
+				ConsideraFly
+			</h3>
+		</div>
+
 	</section>
 
-	<script src="scripts/scripts.js"></script>
+	<!-- JS scripts -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArmpxyZpvhU3kJghNNg-M9ytPlRMMhPx8&callback=launchMap"></script>	
+	<script type="module" src="scripts/scripts.js"></script>
+	<script type="module" src="scripts/airports.js"></script>
+	<script type="module" src="scripts/midpoint.js"></script>
+	<script type="module" src="scripts/haversine.js"></script>
 </body>
 </html>
