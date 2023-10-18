@@ -1,0 +1,1098 @@
+{
+    "AAE": [
+        [
+            36.822201,
+            7.809174,
+            "Rabah Bitat Airport",
+            "Annaba",
+            "Algeria"
+        ],
+        [
+            [
+                "ALG",
+                36.69100189,
+                3.215409994,
+                "Houari Boumediene Airport",
+                "Algier",
+                "Algeria",
+                409.4682972181841
+            ],
+            [
+                "CDG",
+                49.012798,
+                2.55,
+                "Charles de Gaulle International Airport",
+                "Paris",
+                "France",
+                1420.6778739761521
+            ],
+            [
+                "IST",
+                41.275278,
+                28.751944,
+                "Istanbul Airport",
+                "Istanbul",
+                "Turkey",
+                1869.8843457634198
+            ],
+            [
+                "LYS",
+                45.725556,
+                5.081111,
+                "Lyon Saint-Exup\u00e9ry Airport",
+                "Lyon",
+                "France",
+                1015.7468212658307
+            ],
+            [
+                "MRS",
+                43.43927192,
+                5.221424103,
+                "Marseille Provence Airport",
+                "Marseille",
+                "France",
+                767.8595179237371
+            ],
+            [
+                "ORN",
+                35.62390137,
+                -0.621182978,
+                "Es Senia Airport",
+                "Oran",
+                "Algeria",
+                767.6107412094863
+            ],
+            [
+                "ORY",
+                48.7233333,
+                2.3794444,
+                "Paris-Orly Airport",
+                "Paris",
+                "France",
+                1394.6565814511105
+            ]
+        ]
+    ],
+    "AAL": [
+        [
+            57.09275891,
+            9.849243164,
+            "Aalborg Airport",
+            "Aalborg",
+            "Denmark"
+        ],
+        [
+            [
+                "AAR",
+                56.29999924,
+                10.61900043,
+                "Aarhus Airport",
+                "Aarhus",
+                "Denmark",
+                99.89492382262823
+            ],
+            [
+                "AGP",
+                36.67490005,
+                -4.499110222,
+                "M\u00e1laga Airport",
+                "Malaga",
+                "Spain",
+                2506.8428822412297
+            ],
+            [
+                "ALC",
+                38.28219986,
+                -0.558156013,
+                "Alicante International Airport",
+                "Alicante",
+                "Spain",
+                2226.1103478013756
+            ],
+            [
+                "AMS",
+                52.308601,
+                4.76389,
+                "Amsterdam Airport Schiphol",
+                "Amsterdam",
+                "Netherlands",
+                623.9262074306307
+            ],
+            [
+                "ARN",
+                59.65190125,
+                17.91860008,
+                "Stockholm-Arlanda Airport",
+                "Stockholm",
+                "Sweden",
+                549.3439311451635
+            ],
+            [
+                "BCN",
+                41.2971,
+                2.07846,
+                "Barcelona International Airport",
+                "Barcelona",
+                "Spain",
+                1842.0893955567904
+            ],
+            [
+                "BLL",
+                55.74029922,
+                9.151780128,
+                "Billund Airport",
+                "Billund",
+                "Denmark",
+                156.38354222736774
+            ],
+            [
+                "CPH",
+                55.61790085,
+                12.65600014,
+                "Copenhagen Kastrup Airport",
+                "Copenhagen",
+                "Denmark",
+                238.2800624707726
+            ],
+            [
+                "IST",
+                41.275278,
+                28.751944,
+                "Istanbul Airport",
+                "Istanbul",
+                "Turkey",
+                2216.0136477358647
+            ],
+            [
+                "LGW",
+                51.148102,
+                -0.190278,
+                "London Gatwick Airport",
+                "London",
+                "United Kingdom",
+                928.2817503865191
+            ],
+            [
+                "OSL",
+                60.121,
+                11.0502,
+                "Oslo Lufthavn",
+                "Oslo",
+                "Norway",
+                343.82017140318925
+            ],
+            [
+                "PMI",
+                39.55170059,
+                2.738810062,
+                "Palma De Mallorca Airport",
+                "Palma de Mallorca",
+                "Spain",
+                2017.4636710774496
+            ],
+            [
+                "SVG",
+                58.87670135,
+                5.63778019,
+                "Stavanger Airport Sola",
+                "Stavanger",
+                "Norway",
+                317.67976331207456
+            ]
+        ]
+    ],
+    "AAN": [
+        [
+            24.26169968,
+            55.60919952,
+            "Al Ain International Airport",
+            "Al Ain",
+            "United Arab Emirates"
+        ],
+        [
+            [
+                "CCJ",
+                11.13679981,
+                75.95529938,
+                "Calicut International Airport",
+                "Calicut",
+                "India",
+                2596.922681314533
+            ],
+            [
+                "PEW",
+                33.9939003,
+                71.51460266,
+                "Peshawar International Airport",
+                "Peshawar",
+                "Pakistan",
+                1882.3274393957442
+            ]
+        ]
+    ],
+    "AAQ": [
+        [
+            45.0021019,
+            37.34730148,
+            "Anapa Vityazevo Airport",
+            "Anapa",
+            "Russia"
+        ],
+        [
+            [
+                "DME",
+                55.40879822,
+                37.90629959,
+                "Domodedovo International Airport",
+                "Moscow",
+                "Russia",
+                1157.845471137209
+            ],
+            [
+                "LED",
+                59.8003006,
+                30.26250076,
+                "Pulkovo Airport",
+                "St. Petersburg",
+                "Russia",
+                1711.913700171067
+            ],
+            [
+                "SVO",
+                55.972599,
+                37.4146,
+                "Sheremetyevo International Airport",
+                "Moscow",
+                "Russia",
+                1219.8727579154033
+            ]
+        ]
+    ],
+    "AAR": [
+        [
+            56.29999924,
+            10.61900043,
+            "Aarhus Airport",
+            "Aarhus",
+            "Denmark"
+        ],
+        [
+            [
+                "AGP",
+                36.67490005,
+                -4.499110222,
+                "M\u00e1laga Airport",
+                "Malaga",
+                "Spain",
+                2457.742605077589
+            ],
+            [
+                "BMA",
+                59.35440063,
+                17.94169998,
+                "Stockholm-Bromma Airport",
+                "Stockholm",
+                "Sweden",
+                550.2411446443856
+            ],
+            [
+                "CPH",
+                55.61790085,
+                12.65600014,
+                "Copenhagen Kastrup Airport",
+                "Copenhagen",
+                "Denmark",
+                147.73863111928418
+            ],
+            [
+                "GOT",
+                57.66279984,
+                12.27980042,
+                "Gothenburg-Landvetter Airport",
+                "Gothenborg",
+                "Sweden",
+                181.89385230359136
+            ],
+            [
+                "OSL",
+                60.121,
+                11.0502,
+                "Oslo Lufthavn",
+                "Oslo",
+                "Norway",
+                425.6235895932519
+            ],
+            [
+                "PMI",
+                39.55170059,
+                2.738810062,
+                "Palma De Mallorca Airport",
+                "Palma de Mallorca",
+                "Spain",
+                1949.655734653573
+            ],
+            [
+                "STN",
+                51.88499832,
+                0.234999999,
+                "London Stansted Airport",
+                "London",
+                "United Kingdom",
+                835.0014700480078
+            ]
+        ]
+    ],
+    "AAT": [
+        [
+            47.74988556,
+            88.0858078,
+            "Altay Air Base",
+            "Altay",
+            "China"
+        ],
+        [
+            [
+                "URC",
+                43.90710068,
+                87.47419739,
+                "\u00dcr\u00fcmqi Diwopu International Airport",
+                "Urumqi",
+                "China",
+                429.9138060391802
+            ]
+        ]
+    ],
+    "AAX": [
+        [
+            -19.5632,
+            -46.96039963,
+            "Romeu Zema Airport",
+            "Araxa",
+            "Brazil"
+        ],
+        [
+            [
+                "POJ",
+                -18.67280006,
+                -46.49119949,
+                "Patos de Minas Airport",
+                "Patos de Minas",
+                "Brazil",
+                110.60071822591671
+            ]
+        ]
+    ],
+    "AAY": [
+        [
+            16.19169998,
+            52.17499924,
+            "Al Ghaidah International Airport",
+            "Al Ghaidah Intl",
+            "Yemen"
+        ],
+        [
+            [
+                "SAH",
+                15.47630024,
+                44.21969986,
+                "Sana'a International Airport",
+                "Sanaa",
+                "Yemen",
+                854.6765081477721
+            ]
+        ]
+    ],
+    "ABA": [
+        [
+            53.74000168,
+            91.38500214,
+            "Abakan Airport",
+            "Abakan",
+            "Russia"
+        ],
+        [
+            [
+                "DME",
+                55.40879822,
+                37.90629959,
+                "Domodedovo International Airport",
+                "Moscow",
+                "Russia",
+                3366.2806143275566
+            ],
+            [
+                "IKT",
+                52.26800156,
+                104.3889999,
+                "Irkutsk Airport",
+                "Irkutsk",
+                "Russia",
+                884.0715785840167
+            ],
+            [
+                "NSK",
+                69.31109619,
+                87.3321991,
+                "Norilsk-Alykel Airport",
+                "Norilsk",
+                "Russia",
+                1743.7853433664902
+            ],
+            [
+                "SVO",
+                55.972599,
+                37.4146,
+                "Sheremetyevo International Airport",
+                "Moscow",
+                "Russia",
+                3374.8436878671055
+            ]
+        ]
+    ],
+    "ABB": [
+        [
+            6.204167,
+            6.665278,
+            "Asaba International Airport",
+            "Asaba",
+            "Nigeria"
+        ],
+        [
+            [
+                "ABV",
+                9.006790161,
+                7.263169765,
+                "Nnamdi Azikiwe International Airport",
+                "Abuja",
+                "Nigeria",
+                318.52709123686236
+            ],
+            [
+                "LOS",
+                6.577370167,
+                3.321160078,
+                "Murtala Muhammed International Airport",
+                "Lagos",
+                "Nigeria",
+                371.8596901406066
+            ]
+        ]
+    ],
+    "ABD": [
+        [
+            30.37109947,
+            48.22829819,
+            "Abadan Airport",
+            "Abadan",
+            "Iran"
+        ],
+        [
+            [
+                "MHD",
+                36.23519897,
+                59.64099884,
+                "Mashhad International Airport",
+                "Mashhad",
+                "Iran",
+                1243.6783970885735
+            ],
+            [
+                "SYZ",
+                29.53919983,
+                52.58980179,
+                "Shiraz Shahid Dastghaib International Airport",
+                "Shiraz",
+                "Iran",
+                430.2217986506311
+            ],
+            [
+                "THR",
+                35.68920135,
+                51.31340027,
+                "Mehrabad International Airport",
+                "Teheran",
+                "Iran",
+                657.4696505593104
+            ]
+        ]
+    ],
+    "ABE": [
+        [
+            40.65209961,
+            -75.44080353,
+            "Lehigh Valley International Airport",
+            "Allentown",
+            "United States"
+        ],
+        [
+            [
+                "ATL",
+                33.6367,
+                -84.428101,
+                "Hartsfield Jackson Atlanta International Airport",
+                "Atlanta",
+                "United States",
+                1113.7519368480364
+            ],
+            [
+                "CLT",
+                35.2140007,
+                -80.94309998,
+                "Charlotte Douglas International Airport",
+                "Charlotte",
+                "United States",
+                773.2773082916384
+            ],
+            [
+                "DTW",
+                42.21239853,
+                -83.35340118,
+                "Detroit Metropolitan Wayne County Airport",
+                "Detroit",
+                "United States",
+                681.7972557604622
+            ],
+            [
+                "MYR",
+                33.67969894,
+                -78.92829895,
+                "Myrtle Beach International Airport",
+                "Myrtle Beach",
+                "United States",
+                834.4153568133881
+            ],
+            [
+                "ORD",
+                41.9786,
+                -87.9048,
+                "Chicago O'Hare International Airport",
+                "Chicago",
+                "United States",
+                1050.3906349185443
+            ],
+            [
+                "PGD",
+                26.92020035,
+                -81.9905014,
+                "Charlotte County Airport",
+                "Punta Gorda",
+                "United States",
+                1641.2241713837773
+            ],
+            [
+                "PHL",
+                39.87189865,
+                -75.2410965,
+                "Philadelphia International Airport",
+                "Philadelphia",
+                "United States",
+                88.39380502341177
+            ],
+            [
+                "PIE",
+                27.91020012,
+                -82.68740082,
+                "St Petersburg Clearwater International Airport",
+                "St. Petersburg",
+                "United States",
+                1564.0155379310008
+            ],
+            [
+                "SFB",
+                28.77759933,
+                -81.23750305,
+                "Orlando Sanford International Airport",
+                "Sanford",
+                "United States",
+                1421.828961295055
+            ]
+        ]
+    ],
+    "ABI": [
+        [
+            32.41130066,
+            -99.68190002,
+            "Abilene Regional Airport",
+            "Abilene",
+            "United States"
+        ],
+        [
+            [
+                "DFW",
+                32.896801,
+                -97.038002,
+                "Dallas Fort Worth International Airport",
+                "Dallas-Fort Worth",
+                "United States",
+                253.33231159627968
+            ]
+        ]
+    ],
+    "ABJ": [
+        [
+            5.261390209,
+            -3.926290035,
+            "Port Bouet Airport",
+            "Abidjan",
+            "Cote d'Ivoire"
+        ],
+        [
+            [
+                "ACC",
+                5.6051898,
+                -0.166786,
+                "Kotoka International Airport",
+                "Accra",
+                "Ghana",
+                417.9104503578237
+            ],
+            [
+                "ALG",
+                36.69100189,
+                3.215409994,
+                "Houari Boumediene Airport",
+                "Algier",
+                "Algeria",
+                3569.781844041095
+            ],
+            [
+                "BKO",
+                12.5335,
+                -7.94994,
+                "Modibo Keita International Airport",
+                "Bamako",
+                "Mali",
+                921.3968497084136
+            ],
+            [
+                "BOY",
+                11.16009998,
+                -4.33096981,
+                "Bobo Dioulasso Airport",
+                "Bobo-dioulasso",
+                "Burkina Faso",
+                657.4155138661545
+            ],
+            [
+                "BRU",
+                50.90140152,
+                4.48443985,
+                "Brussels Airport",
+                "Brussels",
+                "Belgium",
+                5134.8492918449565
+            ],
+            [
+                "CDG",
+                49.012798,
+                2.55,
+                "Charles de Gaulle International Airport",
+                "Paris",
+                "France",
+                4903.2126932333495
+            ],
+            [
+                "CKY",
+                9.57689,
+                -13.612,
+                "Conakry International Airport",
+                "Conakry",
+                "Guinea",
+                1170.575618278195
+            ],
+            [
+                "CMN",
+                33.36750031,
+                -7.589970112,
+                "Mohammed V International Airport",
+                "Casablanca",
+                "Morocco",
+                3148.1643863995946
+            ],
+            [
+                "COO",
+                6.357230186,
+                2.384350061,
+                "Cadjehoun Airport",
+                "Cotonou",
+                "Benin",
+                708.6475804142777
+            ],
+            [
+                "DKR",
+                14.73970032,
+                -17.49020004,
+                "L\u00e9opold S\u00e9dar Senghor International Airport",
+                "Dakar",
+                "Senegal",
+                1819.6561672186288
+            ],
+            [
+                "DLA",
+                4.006080151,
+                9.719479561,
+                "Douala International Airport",
+                "Douala",
+                "Cameroon",
+                1518.754542499342
+            ],
+            [
+                "FNA",
+                8.61644,
+                -13.1955,
+                "Lungi International Airport",
+                "Freetown",
+                "Sierra Leone",
+                1088.8738740304336
+            ],
+            [
+                "IST",
+                41.275278,
+                28.751944,
+                "Istanbul Airport",
+                "Istanbul",
+                "Turkey",
+                5152.420689597874
+            ],
+            [
+                "LBV",
+                0.458600014,
+                9.412280083,
+                "Libreville Leon M'ba International Airport",
+                "Libreville",
+                "Gabon",
+                1574.240954471125
+            ],
+            [
+                "LFW",
+                6.165609837,
+                1.254510045,
+                "Lom\u00e9-Tokoin Airport",
+                "Lome",
+                "Togo",
+                581.9600376224371
+            ],
+            [
+                "LOS",
+                6.577370167,
+                3.321160078,
+                "Murtala Muhammed International Airport",
+                "Lagos",
+                "Nigeria",
+                814.8061911449812
+            ],
+            [
+                "NBO",
+                -1.319239974,
+                36.92779922,
+                "Jomo Kenyatta International Airport",
+                "Nairobi",
+                "Kenya",
+                4596.055511262341
+            ],
+            [
+                "ORY",
+                48.7233333,
+                2.3794444,
+                "Paris-Orly Airport",
+                "Paris",
+                "France",
+                4869.446366659485
+            ],
+            [
+                "OUA",
+                12.3532,
+                -1.51242,
+                "Ouagadougou Airport",
+                "Ouagadougou",
+                "Burkina Faso",
+                831.929248561514
+            ],
+            [
+                "ROB",
+                6.23379,
+                -10.3623,
+                "Roberts International Airport",
+                "Monrovia",
+                "Liberia",
+                720.2041731936571
+            ],
+            [
+                "TUN",
+                36.85100174,
+                10.22719955,
+                "Tunis Carthage International Airport",
+                "Tunis",
+                "Tunisia",
+                3796.593695418659
+            ]
+        ]
+    ],
+    "ABL": [
+        [
+            67.1063,
+            -157.856989,
+            "Ambler Airport",
+            "Ambler",
+            "United States"
+        ],
+        [
+            [
+                "OTZ",
+                66.88469696,
+                -162.598999,
+                "Ralph Wien Memorial Airport",
+                "Kotzebue",
+                "United States",
+                207.4820772497077
+            ],
+            [
+                "SHG",
+                66.88809967,
+                -157.1620026,
+                "Shungnak Airport",
+                "Shungnak",
+                "United States",
+                38.737822958210764
+            ]
+        ]
+    ],
+    "ABM": [
+        [
+            -10.9508,
+            142.459,
+            "Northern Peninsula Airport",
+            "Amberley",
+            "Australia"
+        ],
+        [
+            [
+                "CNS",
+                -16.88579941,
+                145.7550049,
+                "Cairns International Airport",
+                "Cairns",
+                "Australia",
+                749.6245882718282
+            ]
+        ]
+    ],
+    "ABQ": [
+        [
+            35.040199,
+            -106.609001,
+            "Albuquerque International Sunport",
+            "Albuquerque",
+            "United States"
+        ],
+        [
+            [
+                "ATL",
+                33.6367,
+                -84.428101,
+                "Hartsfield Jackson Atlanta International Airport",
+                "Atlanta",
+                "United States",
+                2038.3332968638624
+            ],
+            [
+                "BWI",
+                39.1754,
+                -76.668297,
+                "Baltimore/Washington International Thurgood Marshall Airport",
+                "Baltimore",
+                "United States",
+                2682.0443525610044
+            ],
+            [
+                "CNM",
+                32.33750153,
+                -104.2630005,
+                "Cavern City Air Terminal",
+                "Carlsbad",
+                "United States",
+                370.6835200346778
+            ],
+            [
+                "DAL",
+                32.847099,
+                -96.851799,
+                "Dallas Love Field",
+                "Dallas",
+                "United States",
+                932.0593632226024
+            ],
+            [
+                "DEN",
+                39.86169815,
+                -104.6729965,
+                "Denver International Airport",
+                "Denver",
+                "United States",
+                562.6630165939923
+            ],
+            [
+                "DFW",
+                32.896801,
+                -97.038002,
+                "Dallas Fort Worth International Airport",
+                "Dallas-Fort Worth",
+                "United States",
+                913.8126773000962
+            ],
+            [
+                "HOU",
+                29.64539909,
+                -95.27890015,
+                "William P Hobby Airport",
+                "Houston",
+                "United States",
+                1220.6109524538256
+            ],
+            [
+                "IAH",
+                29.9843998,
+                -95.34140015,
+                "George Bush Intercontinental Houston Airport",
+                "Houston",
+                "United States",
+                1195.6894623362332
+            ],
+            [
+                "JFK",
+                40.63980103,
+                -73.77890015,
+                "John F Kennedy International Airport",
+                "New York",
+                "United States",
+                2931.44214278489
+            ],
+            [
+                "LAM",
+                35.87979889,
+                -106.2689972,
+                "Los Alamos Airport",
+                "Los Alamos",
+                "United States",
+                98.30664686466557
+            ],
+            [
+                "LAS",
+                36.08010101,
+                -115.1520004,
+                "McCarran International Airport",
+                "Las Vegas",
+                "United States",
+                781.1166930687178
+            ],
+            [
+                "LAX",
+                33.94250107,
+                -118.4079971,
+                "Los Angeles International Airport",
+                "Los Angeles",
+                "United States",
+                1087.5728917074266
+            ],
+            [
+                "MCI",
+                39.2976,
+                -94.713898,
+                "Kansas City International Airport",
+                "Kansas City",
+                "United States",
+                1154.1830361651648
+            ],
+            [
+                "MDW",
+                41.785999,
+                -87.752403,
+                "Chicago Midway International Airport",
+                "Chicago",
+                "United States",
+                1800.933210297584
+            ],
+            [
+                "MSP",
+                44.882,
+                -93.221802,
+                "Minneapolis-St Paul International/Wold-Chamberlain Airport",
+                "Minneapolis",
+                "United States",
+                1577.0323770033272
+            ],
+            [
+                "OAK",
+                37.721298,
+                -122.221001,
+                "Metropolitan Oakland International Airport",
+                "Oakland",
+                "United States",
+                1427.2415352041332
+            ],
+            [
+                "ORD",
+                41.9786,
+                -87.9048,
+                "Chicago O'Hare International Airport",
+                "Chicago",
+                "United States",
+                1795.9164589172863
+            ],
+            [
+                "PDX",
+                45.58869934,
+                -122.5979996,
+                "Portland International Airport",
+                "Portland",
+                "United States",
+                1786.6557556111002
+            ],
+            [
+                "PHX",
+                33.43429947,
+                -112.012001,
+                "Phoenix Sky Harbor International Airport",
+                "Phoenix",
+                "United States",
+                527.7120114470744
+            ],
+            [
+                "SAN",
+                32.73360062,
+                -117.1900024,
+                "San Diego International Airport",
+                "San Diego",
+                "United States",
+                1009.2501836192184
+            ],
+            [
+                "SEA",
+                47.449001,
+                -122.308998,
+                "Seattle Tacoma International Airport",
+                "Seattle",
+                "United States",
+                1897.3212789864135
+            ],
+            [
+                "SFO",
+                37.61899948,
+                -122.375,
+                "San Francisco International Airport",
+                "San Francisco",
+                "United States",
+                1439.304971168539
+            ],
+            [
+                "SLC",
+                40.78839874,
+                -111.9779968,
+                "Salt Lake City International Airport",
+                "Salt Lake City",
+                "United States",
+                793.592896081739
+            ]
+        ]
+    ]
+}
