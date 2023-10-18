@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/icon.ico">
+	<title>Mapita</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<script src="https://kit.fontawesome.com/6b69f5d989.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<section>
+
+		<!-- mapa -->
+		<div id="map"></div>
+
+		<!-- barra de abajito -->
+		<div id="info">
+			<h3>
+				<i class="fa-regular fa-paper-plane"></i>
+				ConsideraFly
+			</h3>
+			
+			<button id="mode-button" class="">
+				Fresh Mode: ON
+			</button>
+
+			<!-- <div class="zooms">
+				<button class="zoom-in">
+					<i class="fa-solid fa-magnifying-glass-plus"></i>
+					+
+				</button>
+				<button class="zoom-out">
+					<i class="fa-solid fa-magnifying-glass-minus"></i>
+					-
+				</button>
+			</div> -->
+		</div>
+
+	</section>
+
+	<!-- JS scripts -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArmpxyZpvhU3kJghNNg-M9ytPlRMMhPx8&callback=launchMap"></script>	
+	<script type="module" src="scripts/scripts.js"></script>
+	<script type="module" src="scripts/airports.js"></script>
+	<script type="module" src="scripts/midpoint.js"></script>
+	<script type="module" src="scripts/haversine.js"></script>
+	<script type="module" src="scripts/destinos.js"></script>
+</body>
+</html>

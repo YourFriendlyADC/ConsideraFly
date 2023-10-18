@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #8ab4f8;
+}
+
+section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h3 {
+	font-weight: 400;
+	color: #e8e8e8;
+}
+
+p {
+	font-weight: 500;
+	color: #27276e;
+}
+
+#map {
+	/* position: relative; */
+	height: 100vh;
+	width: 100%;
+}
+
+#info {
+	width: 100%;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#info h3 {
+	background-color: #27276e;
+	border-radius: .5em;
+	padding: .5em 1.25em;
+	margin: .75em;
+	font-weight: 300;
+}
+
+#info h3 i {
+	margin-right: .25em;
+}
+
+#info #mode-button {
+	width: 11em;
+	margin: 1em;
+	padding: 1em .5em;
+	border: .125em solid #27276e;
+	border-radius: .5em;
+	background-color: #e8e8e8;
+	color: #27276e;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+/* .zooms {
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+} */
+
+.info-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 500;
+}
+
+.info-card-airport {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.info-card-coords {
+	font-size: .75rem;
+	font-weight: 400;
+}
