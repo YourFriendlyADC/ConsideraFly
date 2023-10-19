@@ -1,6 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Playfair Display';
+    overflow-x: hidden;
+
 }
 
 .contenedor {
@@ -249,7 +256,7 @@ h6 {
 }
 .Div-formirris-1 {
     position: absolute;
-    bottom: -1852px;
+    bottom: -1825px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -269,9 +276,8 @@ h6 {
     fill: #ffffff;
 }
 
-
 footer{
-    background: #414141;
+    background: #5a5f61;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -289,7 +295,7 @@ footer{
 }
 .content-foot h4{
     background: #fff;
-    border-bottom: 3px solid #af20d3;
+    border-bottom: 3px solid #71aee4;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
@@ -299,7 +305,32 @@ footer{
 
 .titulo-final{
     text-align: center;
-    font-size: 24px;
+    font-size: 1em;
     margin: 24px 0 0 0;
     color: #9e9797;
+}
+
+.map-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-link a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000000;
+    gap: .5em;
+}
+
+.map-link a div {
+    align-self: row;
+}
+
+.map-link img {
+    align-self: center;
+    width: 20%;
 }
