@@ -1,10 +1,35 @@
-window.onscroll = function(){
-    if(document.documentElement.scrollTop > 100){
-        document.querySelector('.go-top-contenedor').classList.add('show');
-    }else{
-        document.querySelector('.go-top-contenedor').classList.remove('show');
+document.addEventListener("DOMContentLoaded", function() {
+    // Función para mostrar u ocultar el botón "Ir hacia arriba"
+    function toggleGoTopButton() {
+        var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+        var goTopButton = document.querySelector('.go-top-contenedor');
+
+        if (scrollPosition > 100) {
+            goTopButton.classList.add('show');
+        } else {
+            goTopButton.classList.remove('show');
+        }
     }
-}
+
+    // Función para mostrar u ocultar el botón "Ir hacia abajo"
+    function toggleGoBottomButton() {
+        var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+        var goBottomButton = document.querySelector('.go-bottom-contenedor');
+
+        if (scrollPosition < 100) {
+            goBottomButton.classList.add('show');
+        } else {
+            goBottomButton.classList.remove('show');
+        }
+    }
+
+// Asignar las funciones a los eventos onscroll
+window.addEventListener('scroll', function() {
+    toggleGoTopButton();
+    toggleGoBottomButton();
+});
+
+// Evento para ir hacia arriba
 document.querySelector('.go-top-contenedor')
     .addEventListener('click', () => {
         window.scrollTo({
@@ -12,3 +37,17 @@ document.querySelector('.go-top-contenedor')
             behavior: 'smooth'
         });
     });
+
+// Evento para ir hacia abajo
+document.querySelector('.go-bottom-contenedor')
+    .addEventListener('click', () => {
+        var scrollHeight = document.body.scrollHeight;
+        var windowHeight = window.innerHeight;
+        var scrollableDistance = scrollHeight - windowHeight;
+
+        window.scrollTo({
+            top: scrollableDistance,
+            behavior: 'smooth'
+        });
+    });
+});

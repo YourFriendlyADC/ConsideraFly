@@ -98,7 +98,7 @@ nav > a:hover{
     padding: 0px 0px 30px 25px;
     font-weight: 550;
     text-align: justify;
-    color: #672008;
+    color: #424242;
 }
 .tituluu{
     color: #274f72;
@@ -108,17 +108,13 @@ nav > a:hover{
     margin-top: 80px;
 }
 .Mision{
-    background: #f2f2f2;
+    background: #fff;
 }
 
 .contenedor-sobre-mision{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 90px;
-}
-.imagen-sobre-mision{
-    width: 40%;
-    margin-top: -1.8%;
 }
 .sobre-mision .contenido-textos{
     width: 48%;
@@ -133,127 +129,18 @@ nav > a:hover{
     margin-bottom: 90px;
     
 }
-.imagen-sobre-vision{
-    width: 40%;
-    margin-top: -1.8%;
-}
+
 .sobre-vision .contenido-textos{
     width: 48%;
 }
 .Vision h2{
     margin-top: 50px;
 }
-.container{
-    display: flex;
-    align-items: center;
-    margin-bottom: auto;
-    background: #f2f2f2;
-}
-.equipo{
-    flex: 1;
-    max-width: 50%;
-    margin-bottom: 70px;
-}
-.equipirris{
-    color: #234f1e;
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-form{
-    flex: 1;
-    padding: 50px 55px;
-    box-shadow: 10px 10px 20px;
-    border-radius: 20px;
-    text-align: center;
-    width: 500px;
-    margin-left: 20px;
-}
-
-@media(max-width: 900px){
-    .container{
-        flex-direction: column;
-    }
-    .equipo{
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
-    form{
-        width: 100%;
-        padding: 20px;
-    }
-}
-label{
-    color: #283629;
-    font-size: 15px;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-.input-group{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-h2{
-    color: #283629;
-    font-size: 15px ;
-}
-input, textarea{
-    padding: 15px 20px;
-    border-radius: 25px;
-    margin-bottom: 15px;
-    background-color: #ffffff;
-    border: 2PX solid #6a6c6b;
-    color: #283629;
-    outline: none;
-}
-input::placeholder, textarea::placeholder{
-    color: #b6beb7;
-}
-.form-txt{
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-.form-txt a{
-    color: #7f7f7f;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
-}   
-.btn{
-    font-size: 16px;
-    color: #ffff;
-    border: 0;
-    border-radius: 25px;
-    background-color: #7b4cd9;
-    box-shadow: 0 0 20px rgba(0, 55, 254, 0.4);
-    cursor: pointer;
-}
-.btn:hover{
-    background-color: #4d4be0;
-}
-@media(max-width:991px){
-    body{
-        padding: 30px;
-    }
-    form{
-        padding: 50px 30px;
-        width: 100%;
-    }
-    input{
-        padding: 13px;
-    }
-}
-.fa-info-icon {
-    margin-left: 5px; /* Ajusta este valor según sea necesario */
-}
 
 
 
 footer{
-    background: #414141;
+    background: #5a5f61;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -271,9 +158,10 @@ footer{
 }
 .content-foot h4{
     background: #fff;
-    border-bottom: 3px solid #af20d3;
+    border-bottom: 3px solid #71aee4;
     padding-bottom: 5px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 .content-foot p{
     color: #ccc;
@@ -281,7 +169,7 @@ footer{
 
 .titulo-final{
     text-align: center;
-    font-size: 24px;
+    font-size: 1em;
     margin: 24px 0 0 0;
     color: #9e9797;
 }
@@ -292,4 +180,63 @@ a:link{
 a:visited{
     text-decoration:none;
     color: #000000;
+}
+.go-bottom-contenedor {
+    position: fixed;
+    bottom: 4rem;
+    right: 2rem;
+    width: 0.6rem;
+    height: -6.6rem;
+    z-index: 10;
+}
+
+.go-bottom-button {
+    width: 0rem;
+    height: 0rem;
+    background: #2071b2;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+}
+
+.go-bottom-button i{
+    position:absolute;
+    font-size: 1.7rem;
+    top:48%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: rgb(0, 0, 0);
+    transition: .2s;
+}
+.show{
+    z-index: 10;
+}
+
+.show.go-bottom-button{
+    animation: popup .3s ease-in-out;
+    width: 6.6rem;
+    height: 6.6rem;
+}
+
+.show i{
+    transform: translate(-50%, -50%) scale(1);
+}
+@keyframes popup {
+    0%{
+        width: 0rem;
+        height: 0rem;
+    }
+    50%{
+        width: 8rem;
+        height: 8rem;
+    }
+    100%{
+        width: 6.6rem;
+        height: 6.6rem;
+    }
+    
 }
