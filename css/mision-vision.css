@@ -240,3 +240,30 @@ a:visited{
     }
     
 }
+.language-menu {
+    position: absolute;
+    top: 1px;
+    right: 45px; /* Muestra el menú en la parte superior derecha */
+    background-color: #f0f0f000;
+    width: auto; /* Ancho automático para ajustarse al contenido */
+    display: flex; /* Mostrar los elementos en línea (horizontal) */
+    flex-direction: row; /* Alinear horizontalmente los elementos */
+    z-index: 1; /* Asegura que el menú esté por encima de otros elementos */
+    transition: right 0.3s; /* Animación de despliegue */
+}
+
+/* Estilos para los enlaces del menú de idiomas */
+.language-menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin-right: 10px; /* Espacio entre enlaces */
+    cursor: pointer;
+}
+
+/* Estilos para mostrar el menú cuando se activa */
+.language-menu.active {
+    right: 200px; /* Muestra el menú lateral */
+}
+
